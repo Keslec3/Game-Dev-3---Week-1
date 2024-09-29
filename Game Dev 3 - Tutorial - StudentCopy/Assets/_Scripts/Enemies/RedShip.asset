@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a48c707950bc5b4b88eebb59988bf98, type: 3}
-  m_Name: GreyShip
+  m_Name: RedShip
   m_EditorClassIdentifier: 
-  shipSprite: {fileID: -1069922475, guid: 0cdc11648b682ce44b238fd9d78bb1b5, type: 3}
-  shipSpeed: 3
-  shipHp: 2
+  shipSprite: {fileID: -232441154, guid: 0cdc11648b682ce44b238fd9d78bb1b5, type: 3}
+  shipSpeed: 6
+  shipHp: 1
