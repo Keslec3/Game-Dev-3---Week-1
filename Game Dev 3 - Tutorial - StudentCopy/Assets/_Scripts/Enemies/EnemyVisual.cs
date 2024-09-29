@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemyVisual : MonoBehaviour
 {
     SpriteRenderer spriteRenderer;
-    [SerializeField] EnemyData enemyData;
+    public EnemyData enemyData;
 
     // Start is called before the first frame update
     void Start()

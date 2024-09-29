@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemyLife : MonoBehaviour
 {
     //Default life value
-    [SerializeField] private EnemyData enemyData;
+    public EnemyData enemyData;
     //Reference to the player firing script
     private PlayerFiring firingScriptRef;
     //Ref to the enemy vfx script
