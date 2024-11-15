@@ -13,14 +13,14 @@ public class GameManager : MonoBehaviour
     public UnityEvent gameStarted;
 
 
-    public void GameIsOn()
-    {
-        isGameOn = true;
-        gameStarted.Invoke();
-    }
+public void GameIsOn()
+{
+    isGameOn = true; // Set game state to on
+    gameStarted.Invoke(); // Trigger the game started event
+}
 
-    public void GameIsOff()
-    {
-        isGameOn = false;
-    }
+public void GameIsOff()
+{
+    isGameOn = false; // Set game state to off
+}
 }

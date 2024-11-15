@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shipSprite: {fileID: -1069922475, guid: 0cdc11648b682ce44b238fd9d78bb1b5, type: 3}
   shipSpeed: 3
-  shipHp: 2
+  shipHp: 3

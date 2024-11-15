@@ -2,14 +2,12 @@ using UnityEngine;
 
 public class EnemyVisual : MonoBehaviour
 {
-    SpriteRenderer spriteRenderer;
-    public EnemyData enemyData;
+    SpriteRenderer spriteRenderer; // To render the enemy sprite
+    public EnemyData enemyData; // Data for the enemy
 
-    // Start is called before the first frame update
     void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.sprite = enemyData.shipSprite;
+        spriteRenderer = GetComponent<SpriteRenderer>(); // Get the SpriteRenderer component
+        spriteRenderer.sprite = enemyData.shipSprite; // Set the enemy sprite
     }
-
 }
